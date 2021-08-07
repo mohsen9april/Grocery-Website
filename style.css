@@ -1,0 +1,80 @@
+
+:root {
+    --green: #27ae60
+    --black: #2c2c54
+}
+
+
+*{
+    font-family: 'Nunito', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+::selection {
+    background: #27ae60;
+    color: #fff;
+}
+
+.header-1{
+    background: #eee; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.header-1 .search-box-container {
+    display: flex;
+    height: 5rem;
+}
+
+.header-1 .search-box-container #search-box {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #333;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    text-transform: none;
+}
+
+.header-1 .search-box-container .fa-search {
+    height: 100%;
+    width: 8rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: #fff;
+    background: #27ae60;
+    text-align: center;
+}
+
+
+.header-2 {
+    background: rgb(253, 251, 105); 
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.logo i {
+    padding-right: 0.5rem;
+    color: #27ae60;
+}
